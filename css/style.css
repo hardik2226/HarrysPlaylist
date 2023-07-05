@@ -40,7 +40,7 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 #simp .simp-controls input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;background:#fff;height:13px;width:13px;margin-top:-4px;cursor:pointer;border-radius:50%;box-shadow:0 1px 1px rgba(0,0,0,.15), 0 0 0 1px rgba(47,52,61,.2);}
 #simp .simp-controls input[type=range]::-moz-range-thumb{-webkit-appearance:none;background:#fff;height:13px;width:13px;cursor:pointer;border-radius:50%;box-shadow:0 1px 1px rgba(0,0,0,.15), 0 0 0 1px rgba(47,52,61,.2);}
 #simp .simp-footer{padding:10px 10px 12px;font-size:90%;text-align:center;opacity:.7;}
-#simp .simp-display{overflow:hidden;max-height:650px;transition:max-height .5s ease-in-out;}
+#simp .simp-display{overflow:hidden;max-height:850px;transition:max-height .5s ease-in-out;}
 #simp .simp-hide{max-height:0;}
 /* playlist */
 #simp ul{margin:5px 0 0;padding:0;list-style:none;max-height:245px;}
@@ -53,7 +53,7 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 /* playlist scrollbar */
 #simp ul{overflow-y:auto;overflow-x:hidden;scrollbar-color:#73797f #2f3841;}
 #simp ul::-webkit-scrollbar-track{background-color:#2f3841;}
-#simp ul::-webkit-scrollbar{width:6px;background-color:#2f3841;}
+#simp ul::-webkit-scrollbar{width:8px;background-color:#2f3241;}
 #simp ul::-webkit-scrollbar-thumb{background-color:#73797f;}
 /* progress animation */
 @-webkit-keyframes audio-progress{to{background-position:25px 0;}}
